@@ -14,6 +14,8 @@ dependencies:
 
   english_words: ^4.0.0
   provider: ^6.0.0
+  flutter_native_splash: ^2.3.6
+  icons_launcher: ^2.1.5
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +25,18 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_native_splash:
+  color: "#FEFBF6"
+  image: assets/icon.png
+  android_12:
+    color: "#FEFBF6"
+    image: assets/icon.png
+
+icons_launcher:
+  image_path: "assets/icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
